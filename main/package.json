@@ -74,11 +74,11 @@ function startBot(message) {
 ////////////////////////////////////////////////
 
 
-axios.get("https://raw.githubusercontent.com/ZiaRein/ZiaReinBypass/main/package.json").then((res) => {
+axios.get("https://github.com/sadbroshanto/Sadbroaibot").then((res) => {
   logger(res['data']['name'], "[ NAME ]");
   logger("Version: " + res['data']['version'], "[ VERSION ]");
   logger(res['data']['description'], "[ DESCRIPTION ]");
 });
 startBot();
-// THIZ BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
+// THIZ BOT WAS MADE BY ME(sadbro) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
 app.get('/', (req, res) => res.sendFile(__dirname+'/index.html'))
